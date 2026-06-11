@@ -1,10 +1,12 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:6D4AFF&height=180&section=header&text=mizaaah&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Cybersec%20%7C%20Homelab%20%7C%20Local%20AI%20%7C%20Pentest&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:6D4AFF&height=200&section=header&text=mizaaah&fontSize=80&fontColor=ffffff&fontAlignY=40&desc=Cybersec%20%7C%20Homelab%20%7C%20Local%20AI%20%7C%20Pentest&descAlignY=60&descSize=20&animation=fadeIn" width="100%"/>
 </div>
+
+<br>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=6D4AFF&center=true&vCenter=true&width=500&lines=Building+homelabs+%F0%9F%8F%A0;Breaking+things+to+understand+them+%F0%9F%94%A5;Running+LLMs+locally+%F0%9F%A4%96;Always+learning%2C+always+hacking+%F0%9F%95%B5%EF%B8%8F)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=6D4AFF&center=true&vCenter=true&width=550&lines=Building+homelabs+%F0%9F%8F%A0;Breaking+things+to+understand+them+%F0%9F%94%A5;Running+LLMs+locally+%F0%9F%A4%96;Always+learning%2C+always+hacking+%F0%9F%95%B5%EF%B8%8F)](https://git.io/typing-svg)
 
 <br>
 
@@ -19,59 +21,111 @@
 
 ## 🧑‍💻 whoami
 
+<table>
+<tr>
+<td valign="top" width="60%">
+
 ```bash
 $ cat about.txt
 
   👾  mizaaah
-  🎓  Bachelor Cybersécurité — ISEN Yncréa Toulon (2023–2027)
+  🎓  Bachelor Cybersécurité
+      ISEN Yncréa Toulon — 2023–2027
   📍  Pierrefeu du Var
 
-  ❤️  Homelab · Local AI · Pentest · CTF · OSINT
+  ❤️  Homelab · Local AI
+      Pentest · CTF · OSINT
 ```
+
+</td>
+<td valign="top" width="40%" align="center">
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="220"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🏠 Homelab
 
+<table>
+<tr>
+<td valign="top" width="40%" align="center">
+
+<img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" width="220"/>
+
+</td>
+<td valign="top" width="60%">
+
 > Infrastructure maison sur **Arch Linux**, toujours en évolution.
 
 | | |
-|---|---|
-| 🌐 Réseau | VLANs 802.1Q sur switch Netgear manageable |
-| 🔗 Accès distant | Tailscale subnet router sur ESXi (HP ProLiant ML350p) |
-| 📦 Services | Docker · Portainer · Nginx Proxy Manager · AdGuard Home |
+|:---|:---|
+| 🌐 Réseau | VLANs 802.1Q · Netgear GS308E |
+| 🔗 Accès distant | Tailscale sur ESXi (HP ProLiant ML350p) |
+| 📦 Services | Docker · Portainer · Nginx · AdGuard |
 | 📊 Monitoring | Grafana · Netdata · Loki |
-| ⚔️ Labs pentest | DVWA · WebGoat · Juice Shop · Gophish · SpiderFoot |
+| ⚔️ Labs pentest | DVWA · WebGoat · Juice Shop · Gophish |
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🤖 IA locale & Automatisation
 
+<table>
+<tr>
+<td valign="top" width="60%">
+
 | | |
-|---|---|
-| 🗣️ Pipeline vocal | Whisper (ASR) → Ollama / phi3 → TTS |
-| 🕸️ Agents autonomes | Flowise : monitoring, OSINT, détection d'anomalies |
+|:---|:---|
+| 🗣️ Pipeline vocal | Whisper → Ollama / phi3 → TTS |
+| 🕸️ Agents autonomes | Flowise : OSINT, détection d'anomalies |
 | 🤖 MizaahBot | Discord : `!osint` `!cve` `!scan` `!ask` |
-| ⚙️ Workflows | n8n : rapports homelab, veille CVE, API AniList/Jikan |
+| ⚙️ Workflows | n8n : rapports homelab, veille CVE |
+
+</td>
+<td valign="top" width="40%" align="center">
+
+<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="220"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🍯 Honeypot-as-a-Service `2026`
 
-> Lead Architecte DevOps · Projet d'équipe (4 personnes)
+<table>
+<tr>
+<td valign="top" width="40%" align="center">
+
+<img src="https://media.giphy.com/media/f6hnhHkks8bk4jwjh3/giphy.gif" width="220"/>
+
+</td>
+<td valign="top" width="60%">
+
+> Lead Architecte DevOps · Équipe de 4
 
 ```
-┌─────────────────────────────────────────────────────┐
-│   GitHub Actions CI/CD  →  GHCR  →  k3s cluster     │
-│                                                      │
-│   ┌──────────┐    ┌──────────┐    ┌─────────────┐   │
-│   │  Cowrie  │    │ KubeVirt │    │   FastAPI   │   │
-│   │ Honeypot │───▶│  VM ISO  │    │  Dashboard  │   │
-│   └──────────┘    └──────────┘    └─────────────┘   │
-│                                                      │
-│   Hardening CIS/ANSSI · auditd · fail2ban · sysctls  │
-└─────────────────────────────────────────────────────┘
+GitHub Actions CI/CD → GHCR → k3s
+
+ ┌──────────┐  ┌──────────┐  ┌─────────┐
+ │  Cowrie  │→ │ KubeVirt │  │ FastAPI │
+ │ Honeypot │  │  VM ISO  │  │  Dashboard  │
+ └──────────┘  └──────────┘  └─────────┘
+
+Hardening CIS/ANSSI · auditd · fail2ban
 ```
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -120,12 +174,16 @@ $ cat about.txt
 
 <br><br>
 
-![Snake animation](https://raw.githubusercontent.com/mizaaah/mizaaah/output/github-contribution-grid-snake-dark.svg)
+[![GitHub Streak](https://streak-stats.demolab.com?user=mizaaah&theme=tokyonight&hide_border=true&background=0d1117&ring=6D4AFF&fire=6D4AFF&currStreakLabel=6D4AFF)](https://git.io/streak-stats)
+
+<br>
+
+[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=mizaaah&bg_color=0d1117&color=6D4AFF&line=6D4AFF&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D4AFF,100:0d1117&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D4AFF,100:0d1117&height=120&section=footer" width="100%"/>
 </div>
